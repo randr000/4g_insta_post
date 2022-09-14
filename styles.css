@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+.post {
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    width: 300px;
+    overflow: hidden;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.post-header {
+    height: 60px;
+}
+
+.post-header div {
+    display: inline-block;
+}
+
+.post-header > * {
+    margin-top: 10px;
+}
+
+.post-header div p {
+    margin: 0;
+}
+
+.fa-ellipsis-vertical {
+    float: right;
+    margin-right: 5px;
+}
+
+.fa-html5 {
+    margin-left: 5px;
+} 
+
+.post-img {
+    height: 200px;
+    display: block;
+}
+
+.post-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.fa-bookmark {
+    float: right;
+}
+
+.font-awesome-img-icons {
+    margin: 7px;
+    height: 20px;
+}
+
+.font-awesome-img-icon {
+    height: 20px;
+}
+
+p {
+    margin: 7px;
+    margin-top: 20px;
+}
